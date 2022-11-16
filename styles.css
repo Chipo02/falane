@@ -1,0 +1,123 @@
+body {
+  background-color: #EDE4E0;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+h1, a, p {
+  color: #CFF5E7;
+}
+
+.logo {
+    font-size: 1.25rem;
+    margin-left: 0;
+  }
+
+.nav-link {
+      color: gray;
+      font-size: 1rem;
+      margin: 2rem;
+    }
+
+.btn {
+    background-color: #B9005B;
+    color: #fff;
+    margin-right: 0;
+    }
+
+.one, .two, .three {
+  background-repeat: no-repeat;
+  margin: 1rem 0;
+}
+
+.one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/outsourcing.png');
+}
+
+.two {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/imm1.png');
+}
+
+.three {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/registration.png');
+}
+
+.caption {
+  position: relative;
+  top: 6rem;
+  z-index: 1;
+}
+
+.heading {
+  color: #B9005B;
+  margin-bottom: 1rem;
+}
+
+.location-heading {
+  color: #47B5FF;
+}
+
+.slide-text {
+  color: #47B5FF;
+  margin-bottom: 12rem;
+}
+
+#services {
+  background-color: #B9005B;
+  margin: 2rem 0;
+  padding: 4rem 1rem;
+}
+
+#footer {
+  background-color: #B9005B;
+  padding: 4rem;
+  margin-top: 3rem;
+}
+
+.icon {
+  height: 25%;
+  width: 25%;
+  margin: 0.4rem;
+}
+
+@media (min-width: 780px) {
+
+  .pin {
+    height: 450px;
+    width: 900px;
+    margin: 2rem;
+  }
+
+  .logo {
+    margin-right: 44rem;
+  }
+
+  .one, .two, .three {
+    width: 29vw;
+    margin: 1rem;
+  }
+
+  .nav-link {
+        color: #47B5FF;
+      }
+
+  .service {
+    margin-bottom: 3rem;
+  }
+
+  .socials {
+    position: absolute;
+    right: 3rem;
+    top: 98.4rem;
+  }
+
+  .icon {
+    height: 10%;
+    width: 10%;
+    margin: 0.5rem;
+  }
+
+  #footer {
+    padding-left: 6rem;
+  }
+}
